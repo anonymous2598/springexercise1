@@ -5,9 +5,17 @@
       <artifact name="excercise1.war" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66d67bf6-27ed-4682-a775-ad38136ba51d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="66d67bf6-27ed-4682-a775-ad38136ba51d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +27,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IntelliJConfiguration">
     <option name="PROPERTY_FILES">
@@ -34,8 +45,13 @@
     <option name="LABEL_PART_2" value="&quot;/&gt;" />
   </component>
   <component name="ProjectId" id="1RMKEYSoUU4GICpYuooAuE28gcP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,19 +64,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Smart Tomcat.excercise1">
+  <component name="RunManager" selected="Smart Tomcat.Unnamed">
     <configuration name="exercise1 [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -136,26 +140,33 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="excercise1" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
-      <option name="DOC_BASE" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="CONTEXT_PATH" value="/" />
-      <option name="TOMCAT_PORT" value="8080" />
-      <option name="AJP_PORT" value="8009" />
-      <option name="ADMIN_PORT" value="8005" />
-      <option name="VM_OPTIONS" value="" />
-      <option name="PASS_PARENT_ENV_OPTIONS" value="true" />
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" nameIsGenerated="true">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/spring-mvc-exercise1" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/8.0.38" />
+          <option name="number" value="0" />
+          <option name="path" value="D:\Servers\apache-tomcat-8.0.38" />
+          <option name="version" value="8.0.38.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="excercise1.war" />
-        </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Maven.exercise1 [clean]" />
       <item itemvalue="Maven.exercise1 [compile]" />
       <item itemvalue="Maven.exercise1 [package]" />
-      <item itemvalue="Smart Tomcat.excercise1" />
+      <item itemvalue="Smart Tomcat.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -165,6 +176,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -177,5 +189,16 @@
       <updated>1569471413114</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
